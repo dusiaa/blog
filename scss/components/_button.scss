@@ -1,0 +1,15 @@
+@mixin button ($color: $accent) {
+  border-radius: 5*$pixel;
+  padding: $global-padding; // 8px
+  border-color: $accent;
+  background: $color;
+}
+
+.button-niebieski {
+  @include button(blue);
+}
+
+.button-czerwony {
+  @include button;
+  background: red;
+}

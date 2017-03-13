@@ -1,0 +1,20 @@
+$pixel: 0.0625rem; // 16px
+$global-padding: $pixel;
+$accent: #C2185B;
+
+@import 'components/exports';
+
+* {
+  box-sizing: content-box;
+}
+
+html {
+  padding: 0;
+  font-size: 100%; // 16px
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+

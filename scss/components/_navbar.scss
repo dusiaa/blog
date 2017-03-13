@@ -1,0 +1,15 @@
+.navbar {
+  background-color: $accent;
+  display: flex;
+  justify-content: space-between;
+  .logo {
+    font-size: 32*$pixel;
+    font-weight: 300;
+  }
+  .search {
+    //border-radius: 19*$pixel;
+    border: none;
+    padding-left: 1rem;
+    background: rgba(white, 0.5);
+  }
+}
